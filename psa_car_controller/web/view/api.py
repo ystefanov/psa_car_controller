@@ -49,6 +49,7 @@ def get_vehicle_info(vin):
         status=200,
         mimetype='application/json'
     )
+    logger.info(APP.myp.get_vehicle_info(vin, 1))
     return response
 
 
